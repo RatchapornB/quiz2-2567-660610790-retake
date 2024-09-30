@@ -27,7 +27,7 @@ export default function Home() {
 
         <Reply userImagePath="/profileImages/puppy.jpg" username="หมาน้อย" replyText="จริงด้วยค้าบบบบบบบบ" likeNum={0}/>
 
-        <Reply userImagePath="/profileImages/popcat.jpg" username="Cat Meme" replyText="ลิซ่าาาาาาา Rockstar" likeNum={20}/>
+        <Reply userImagePath="/profileImages/popcat.png" username="Cat Meme" replyText="ลิซ่าาาาาาา Rockstar" likeNum={20}/>
 
         <Comment userImagePath="/profileImages/charliebrown.jpg" username="Charlie Brown" commentText="บ้าไปแล้ว... หรือเปล่า?" likeNum={0} replies={""}/>
 
