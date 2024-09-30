@@ -43,6 +43,9 @@ export default function Comment({
               <img src="/like.svg" width={20}></img>
               <span className="text-muted">{likeNum}</span>
             </div>
+
+            {/* You can use map-loop to render Reply component here */}
+            
           </div>
         </div>
 
