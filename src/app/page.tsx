@@ -23,32 +23,21 @@ export default function Home() {
       
         {/* Comment  */}
 
-        <Comment />
+        <Comment userImagePath="/profileImages/lisa.jpg" username="Lisa" commentText="v" likeNum={999}/>
 
-        {/* <div className="d-flex gap-2 my-2">
-          <img
-            src="/profileImages/lisa.jpg"
-            width="48"
-            height="48"
-            className="rounded-circle"
-            style={{ objectFit: "cover" }}
-          />
-          <div
-            className="rounded rounded-3 p-2"
-            style={{ backgroundColor: "#E5E7EB" }}
-          >
-            <span className="fw-semibold">Lisa</span>
-            <br />
-            <span>จริงค่า</span>
-            <div className="d-flex align-items-center gap-1">
-              <img src="/like.svg" width={20}></img>
-              <span className="text-muted">999 คน</span>
-            </div>
-          </div>
-        </div> */}
+        <Reply userImagePath="/profileImages/puppy.jpg" username="หมาน้อย" replyText="จริงด้วยค้าบบบบบบบบ"/>
+
+        <Reply userImagePath="/profileImages/popcat.jpg" username="Cat Meme" replyText="ลิซ่าาาาาาา Rockstar" likeNum={2}/>
+
+        <Comment userImagePath="/profileImages/charliebrown.jpg" username="Charlie Brown" commentText="บ้าไปแล้ว"/>
+
+      
 
         {/* Reply Example */}
-        <div className="d-flex gap-2 my-2 ps-5">
+
+
+
+        {/* <div className="d-flex gap-2 my-2 ps-5">
           <img
             src="/profileImages/puppy.jpg"
             width="48"
@@ -68,7 +57,7 @@ export default function Home() {
               <span className="text-muted">2 คน</span>
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* map-loop render Comment component here */}
       </div>

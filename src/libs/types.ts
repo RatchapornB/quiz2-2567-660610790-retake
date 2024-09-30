@@ -20,6 +20,6 @@ interface ReplyProps {
     userImagePath : string;
     username : string;
     replyText : string;
-    likeNum : string;
+    likeNum : number;
 }
 export type { ReplyProps };
