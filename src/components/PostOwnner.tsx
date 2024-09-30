@@ -6,6 +6,7 @@ import { PostOwnnerProps } from "@/libs/types";
 export default function PostOwnner({
   username, 
   studentId, 
+  postText,
   likeNum,
   userImagePath,
 } : PostOwnnerProps) {
@@ -34,12 +35,14 @@ export default function PostOwnner({
           <span className="fw-semibold fs-5">{username} {studentId}</span>
         </div>
 
-        <span>Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207</span>
+        <span>{postText}</span>
 
+        {isOk &&
         <div className="d-flex align-items-center gap-1">
           <img src="/like.svg" width={20}></img>
           <span className="text-muted">{likeNum}</span>
         </div>
+        }
 
         <hr className="m-0 border" />
       

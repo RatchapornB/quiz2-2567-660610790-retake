@@ -19,17 +19,17 @@ export default function Home() {
       >
         {/* Post Owner */}
 
-        <PostOwnner userImagePath="/profileImages/Ratchaporn.jpg" username="Ratchaporn Buanut" studentId="660610790" likeNum={100}/>
+        <PostOwnner userImagePath="/profileImages/Ratchaporn.jpg" username="Ratchaporn Buanut" studentId="660610790" likeNum={100} postText="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"/>
       
         {/* Comment  */}
 
-        <Comment userImagePath="/profileImages/lisa.jpg" username="Lisa" commentText="v" likeNum={999}/>
+        <Comment userImagePath="/profileImages/lisa.jpg" username="Lisa" commentText="v" likeNum={999} replies={""}/>
 
-        <Reply userImagePath="/profileImages/puppy.jpg" username="หมาน้อย" replyText="จริงด้วยค้าบบบบบบบบ"/>
+        <Reply userImagePath="/profileImages/puppy.jpg" username="หมาน้อย" replyText="จริงด้วยค้าบบบบบบบบ" likeNum={0}/>
 
         <Reply userImagePath="/profileImages/popcat.jpg" username="Cat Meme" replyText="ลิซ่าาาาาาา Rockstar" likeNum={2}/>
 
-        <Comment userImagePath="/profileImages/charliebrown.jpg" username="Charlie Brown" commentText="บ้าไปแล้ว"/>
+        <Comment userImagePath="/profileImages/charliebrown.jpg" username="Charlie Brown" commentText="บ้าไปแล้ว" likeNum={0} replies={""}/>
 
       
 
