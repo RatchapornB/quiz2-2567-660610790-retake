@@ -23,13 +23,13 @@ export default function Home() {
       
         {/* Comment  */}
 
-        <Comment userImagePath="/profileImages/lisa.jpg" username="Lisa" commentText="v" likeNum={999} replies={""}/>
+        <Comment userImagePath="/profileImages/lisa.jpg" username="Lisa" commentText="จริงค่าาาาา" likeNum={555} replies={""}/>
 
         <Reply userImagePath="/profileImages/puppy.jpg" username="หมาน้อย" replyText="จริงด้วยค้าบบบบบบบบ" likeNum={0}/>
 
-        <Reply userImagePath="/profileImages/popcat.jpg" username="Cat Meme" replyText="ลิซ่าาาาาาา Rockstar" likeNum={2}/>
+        <Reply userImagePath="/profileImages/popcat.jpg" username="Cat Meme" replyText="ลิซ่าาาาาาา Rockstar" likeNum={20}/>
 
-        <Comment userImagePath="/profileImages/charliebrown.jpg" username="Charlie Brown" commentText="บ้าไปแล้ว" likeNum={0} replies={""}/>
+        <Comment userImagePath="/profileImages/charliebrown.jpg" username="Charlie Brown" commentText="บ้าไปแล้ว... หรือเปล่า?" likeNum={0} replies={""}/>
 
       
 

@@ -39,10 +39,13 @@ export default function Comment({
             <span className="fw-semibold">{username}</span>
             <br />
             <span>{commentText}</span>
+
+            {isOk &&
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
               <span className="text-muted">{likeNum}</span>
             </div>
+            }
 
             {/* You can use map-loop to render Reply component here */}
             
